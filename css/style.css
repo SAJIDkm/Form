@@ -1,0 +1,19 @@
+header { background: rgb(92, 186, 255); display: flex; height: 100px; align-items: center; }
+nav { width: 40%; margin: auto; padding-top: 40px; }
+nav ul { margin: 0px; padding: 0px; list-style: none; overflow: hidden; }
+nav ul li { float: left; color: rgb(255, 255, 255); text-transform: capitalize; margin-left: 20px; }
+.content { overflow: hidden; }
+.left {width: 44%;float: left;background: rgb(92, 186, 255);height: 500px;}
+.left img {width: 100%;}
+.right {width: 56%;float: right;background: rgb(0, 147, 255);display: flex;justify-content: center;height: 500px;align-items: center;}
+.right-form {width: 40%;}
+.right-form h2 { color: rgb(255, 255, 255); text-transform: capitalize; font-size: 29px; margin: 0px 0px 15px; }
+.right-form p { color: rgb(255, 255, 255); margin: 0px 0px 15px; }
+.right-form form { width: 100%; }
+.right-form form input { width: 100%; padding: 10px 5px; border: none; margin-bottom: 10px; }
+.social-icon { margin-top: 20px; }
+.right-form form input[type="submit"] { width: 25%; font-size: 16px; }
+.name { width: 100%; display: flex; justify-content: space-between; }
+.name input[type="text"] { width: 45%; }
+.social-icon ul { list-style: none; margin: 0px; padding: 0px; overflow: hidden; }
+.social-icon ul li { float: left; color: rgb(255, 255, 255); font-size: 20px; margin-right: 24px; }
